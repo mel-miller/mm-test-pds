@@ -1,0 +1,84 @@
+:root {
+	// Fonts.
+	--sans-font: "Tablet Gothic", sans-serif;
+	--sans-font-condensed: "Tablet Gothic Condensed", sans-serif;
+	--serif-font: "Adelle", serif;
+	// Colors.
+	--primary-color: #ffdc28;
+	--accent-1-color: #3017a1;
+	--accent-2-color: #de256f;
+	--black-color: #000000;
+	--grey-20-color: #2b353d;
+	--grey-30-color: #414d56;
+	--grey-40-color: #647684;
+	--grey-70-color: #b2c1cb;
+	--grey-80-color: #dce5e7;
+	--grey-90-color: #f1f1f1;
+	--white-color: #ffffff;
+	--focus-color: #127cbb;
+	--focus-light-color: #37cbff;
+	--overlay-color: rgba(0, 0, 0, 0.5);
+	// Elevations.
+	--subtle-1-elev: rgb(0 0 0 / 10%) 0px 1px 8px 0px;
+	--subtle-2-elev: rgb(0 0 0 / 10%) 0px 2px 16px 0px;
+	--subtle-3-elev: rgb(0 0 0 / 10%) 0px 4px 32px 0px;
+	--subtle-4-elev: rgb(0 0 0 / 10%) 0px 8px 64px 0px;
+	--hard-1-elev: rgb(0 0 0 / 32%) 0px 1px 8px 0px;
+	--hard-2-elev: rgb(0 0 0 / 32%) 0px 2px 16px 0px;
+	--hard-3-elev: rgb(0 0 0 / 32%) 0px 4px 32px 0px;
+	--hard-4-elev: rgb(0 0 0 / 32%) 0px 8px 64px 0px;
+}
+
+.pds-quote,
+.pds-quote--white {
+	background-color: var(--white-color);
+	color: var(--black-color);
+}
+
+.pds-quote--light-grey {
+	background-color: var(--grey-90-color);
+	color: var(--black-color);
+}
+
+.pds-quote--black {
+	background-color: var(--black-color);
+	color: var(--white-color);
+}
+
+.pds-quote figure {
+	margin-block-start: 0;
+}
+
+.pds-quote__inner {
+	display: flex;
+	align-items: flex-start;
+	padding: 60px;
+}
+
+.pds-quote__bolt {
+	fill: var(--primary-color);
+	width: 48px;
+	height: 28px;
+}
+
+.pds-quote__bolt--right {
+	transform: rotateY(180deg);
+}
+
+.pds-quote__text {
+	font-family: var(--serif-font);
+	font-size: 32px;
+	line-height: 1.2;
+	text-align: center;
+	margin: 0px 0px 40px;
+}
+
+.pds-quote__attribution {
+	font-family: var(--sans-font);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-align: center;
+}

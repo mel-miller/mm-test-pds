@@ -17,7 +17,7 @@
     },
     "icons/bolt": {
         "scope": "mm-test.pds",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "pds/icons/bolt"
     },
